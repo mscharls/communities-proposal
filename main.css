@@ -1,0 +1,179 @@
+/* INDEX  --------------------
+  - CSS RESET
+  - GENERAL HELPER CLASSES
+  - UNIVERSAL STYLES
+  - HEADER & FOOTER
+  - MODULAR ELEMENTS
+    - Element Name
+  - FORMS
+  - SPECIFIC PAGES
+    - Page Name
+---------------------------
+Website Fonts:
+  Font-family: 'Raleway', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+Website Colours: List colour hex codes here for reference
+adapt black: black
+adapt white: white
+tbn taupe: #F3E8D8
+tbn purple: #463656
+adapt grey: #E1E1E1
+adapt red: #E55453
+
+/* ------------------------- CSS RESET ------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+[class*=grid-], [class*=grid_], [class~=grid] {
+  margin: 0;
+}
+[class*=col-], [class*=col_], [class~=col] {
+  padding: 0;
+}
+
+a:-webkit-any-link {
+  color: black;
+}
+
+/* ------------------------- SHOW BOXES ------------------------- */
+section, div, span {
+  /* padding: 1%; */
+  /* border: 1px solid rgb(200,200,200); */
+}
+
+/* ------------------------- HELPER CLASSES ------------------------- */
+
+.tall         { min-height:100vh; }  /*used*/
+.med-height   { height: 50vh; }  /*used*/
+
+.textcentered     { text-align: center; } /*used*/
+.textright        { text-align: right; }  /*used*/
+
+.textbottom { align-self: flex-end } /*used*/
+
+.padding-2 {padding: 2%}
+.padded-bottom-20  { padding: 2% 2% 10% 2%}
+
+/* ------------------------- UNIVERSAL STYLES ------------------------- */
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3vw;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+}
+
+h2 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+
+
+
+
+/* ------------------------- MODULAR ELEMENTS ------------------------- */
+
+.logo {
+  max-height: 16vw;
+  fill: white;
+}
+
+.frontpage {
+  background-color: #463656;
+  min-height: 100vh;
+}
+
+.client {
+  background-color: #F3E8D8
+}
+
+.bump-up {
+  margin-top:-13vw;
+  margin-bottom:13vw;
+  margin-left:1vw;
+  margin-right:1vw;
+  z-index:1;
+}
+
+.client-proposal {
+  background-image: url("assets/lukasz-lada-275650-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav a {
+  display:inline-block;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+nav h2 {
+  padding: 6%;
+}
+
+nav h1 {
+  color: black;
+  padding: 5%;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #F9F4ED;
+    padding:5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content a {
+  display:block;
+  padding:5px 15px;
+  text-align:left;
+  white-space:nowrap;
+}
+
+.dropdown-nav {
+  position:relative;
+}
+
+li{list-style:none}
+
+.side-menu {
+  cursor: pointer;
+  background-color: #F3E8D8;
+  box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.proposal-body {
+  overflow:auto;
+  max-height: 100vh;
+}
+
+.proposal-body p, .proposal-body h3 {
+  padding: 2%;
+}
+
+/* ------------------------- FORMS ------------------------- */
+
+/* ------------------------- SPECIFIC ELEMENTS ------------------------- */
