@@ -1,40 +1,48 @@
 <section class="grid body">
   <section class="col-3 side-menu tall">
     <nav>
-      <h1 id="menu-heading"> Project Proposal </h1>
+      <h1 id="letter_button">Adept Proposal</h1>
 
-      <div class="dropdown-nav">
-          <h2>section 1</h2>
+      <div>
+          <h2 class="dropdown-nav animated">Overview <i class="fas fa-sort-down"></i></h2>
              <div class="dropdown-content">
-              <a>blah</a>
-              <a href="">blah</a>
-              <a href="">blah</a>
+              <a id="phases_button">Phases</a>
+              <a id="services_button">Services</a>
             </div>
         </div>
-      <div class="dropdown-nav">
-          <h2>section 2</h2>
+      <div>
+          <h2 class="dropdown-nav animated">Details <i class="fas fa-sort-down"></i></h2>
              <div class="dropdown-content">
-              <a href="">blah</a>
-              <a href="">blah</a>
+              <a id="timelines_button">Timelines</a>
+              <a id="budget_button">Budget</a>
+              <a id="t_and_c_button">Terms & Conditions</a>
             </div>
         </div>
-      <div class="dropdown-nav">
-          <h2>section 3</h2>
+      <div>
+          <h2 class="dropdown-nav animated">Next Steps <i class="fas fa-sort-down"></i></h2>
              <div class="dropdown-content">
-              <a href="">blah</a>
-              <a href="">blah</a>
-              <a href="">blah</a>
+              <a id=accept_button>Accept Poposal</a>
+              <a id=book_button>Book a Call</a>
             </div>
         </div>
 
     </nav>
   </section>
-  <div class=" col-9 proposal-body">
-    <h3>header</h3>
+  <div class=" col-9 proposal-body padding-top-left">
 
-        {% include overview.html %}
+        {% include opening_letter.html %}
 
-        {% include scope_of_services.html %}
+        {% include phases.html %}
+
+        {% include services.html %}
+
+        {% include timeframe.html %}
+
+        {% include budget.html %}
+
+        {% include project_management.html %}
+
+        {% include terms_and_conditions.html %}
 
   </div>
 </section>
