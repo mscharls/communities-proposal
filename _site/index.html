@@ -19,6 +19,7 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
       <!-- my css file.  It is important that my css is last as when there is the same level of specificity, the last css is applied -->
+      <link href="table.css" type="text/css" rel="stylesheet" />
       <link href="timeline.css" type="text/css" rel="stylesheet" />
       <link href="main.css" type="text/css" rel="stylesheet" />
 
@@ -32,7 +33,7 @@
     <img src="assets/tripbynumberslogo-white.svg" class="logo animated fadeIn slower">
   </div>
   <div class="col-12 textcentered animated fadeIn slower delay-1s">
-    <h1> PROFESIONAL SERVICES PROPOSAL <h1>
+    <h1 class="white"> PROFESIONAL SERVICES PROPOSAL <h1>
   </div>
 </section>
 <section class="grid client-proposal padded-bottom-20">
@@ -62,13 +63,13 @@
              <div class="dropdown-content">
               <a id="timeframe_button">Timeframe</a>
               <a id="budget_button">Budget</a>
-              <a id="t_and_c_button">Terms & Conditions</a>
+              <a id="team_button">Team & Engagement</a>
             </div>
         </div>
       <div>
           <h2 class="dropdown-nav animated">Next Steps <i class="fas fa-sort-down"></i></h2>
              <div class="dropdown-content">
-              <a id=accept_button>Accept Poposal</a>
+              <a id=accept_button>Accept Proposal</a>
               <a id=book_button>Book a Call</a>
             </div>
         </div>
@@ -81,7 +82,7 @@
 <p class="margin-top">Hi Ben</p>
 <br>
 <p> First off, thank you for considering me for this project.  I have been working on the Salesforce platform for 3 years now and my passion for what it can do and how it <span>enables businesses </span> continues to grow. <br><br>In particular my love for both the Community Cloud and Service Cloud has lead me to become a fully qualified consultant in both of these areas.  I have a great deal of understanding and experience in how to utilise the <span>extensive suite of out of the box functionality</span> to engineer engaging customer experiences.  <br><br>Additionally my focus in the area of education has exposed me to the demands of this industry; from structured online learning to free-form content delivery.  This has given me the opportunity to implement several <span>best in class applications</span> to further extend the core functionality of both products.  <br><br>Adept customers will love how easy, intuitive and responsive the Community interface is and your internal teams will appreciate the 360 degree view it provides of your customers, from right within their lightning App.  As your Salesforce consultant for this project I look forward to developing this platform and aligning to your unique needs</p><p>Kind Regards,</p>
-<h1>Charlotte Hailey</h1>
+<h2>Charlotte Hailey</h2>
 </div>
 
 
@@ -171,11 +172,12 @@
  <br>
     <p><span>Not Included</span></p>
     <li>Configuration of Service Cloud features such as case management and live agent (Knowledge is included)</li>
+    <li>Creation of highly customised template from scratch*</li>
     <li>Creation of internal training manuals</li>
     <li>Changes to scope not agreed to in writing</li>
     <li>Custom Lightning component development not agreed to in writing</li>
 
-
+<p>*Whilst ample customisations are avaliable, excessive use of CSS styling can be detrimental to a maintainable community as each update release the code will need to be reviewed, revised and re-written prior to new features becoming avalaible.</p>
 
 
 
@@ -249,8 +251,37 @@
 
         <div class="hide" id="budget">
   <h1> Budget </h1>
+  <br>
+  <br>
+  <p> Payments will be broken down into three instalments in line with the delivery of each phase of the project.  Full payment terms will be included in the Service Agreement. </P>
 
-This is the budget
+  <body>
+  <table class="table-fill">
+  <thead>
+  <tr>
+  <th class="text-left">Service</th>
+  <th class="text-left">Quote</th>
+  </tr>
+  </thead>
+  <tbody class="table-hover">
+  <tr>
+  <td class="text-left">Research</td>
+  <td class="text-left">$2,000</td>
+  </tr>
+  <tr>
+  <td class="text-left">Design</td>
+  <td class="text-left">$3,000</td>
+  </tr>
+  <tr>
+  <td class="text-left">Develop, Test, Train, Deploy</td>
+  <td class="text-left">$5,500</td>
+  </tr>
+
+  </tbody>
+  </table>
+
+
+    </body>
 
 
 </div>
@@ -261,8 +292,40 @@ This is the budget
 </div>
 
 
-        <div class="hide" id="t_and_c">
-  <h1> Terms & Conditions </h1>
+        <div class="hide" id="team">
+  <h1> Team and Engagement </h1>
+
+  <br>
+   <p><span>Charlotte Hailey</span></p>
+   <br>
+   <p>I will play a central role in owning and achieving on-time delivery of the project. I will be very hands on throughout the project, interacting with the Adept Product Owner and liaising with your Salesforce Account Executive to ensure access to features and licenses is granted as required. I will also play a central role in negotiating and liasing with any third party developers or applications teams for any third party integrations that are required.  In the small chance that custom APEX or Lightning development is required that is beyond my technical skill set, I will engage my team of off-shore Salesforce Partner Developers.</p>
+  <br><br>
+   <p><span>Adept Product Owner</span></p>
+
+   <p>This person will be an Adept employee and the deciding voice in the direction of the Community Development.  Decisions such as feature prioritisation, third party application costs, changes to scope, internal user access, sharing models and security will be made by this person.  They may delegate responsibility internally for specific decisons, by doing so in writing.  An example of this would be delegating the choice of colours, banner images and other design aspects to the internal marketing person.  This would not include delegating any decisions of a material nature to subordinates without remaining as a final OK once the details have been decided.<p>
+</div>
+
+
+        <div class="hide" id="accept">
+  <h1> Acceptance </h1>
+  <br>
+  <p> Ready to get this project started?  <br> <br>Please click accept below form and a full Service Agreement will be prepared and sent across to the contact you specify </p>
+
+<a class="typeform-share button" href="https://charlottehailey.typeform.com/to/qN9OoS" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#463656;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Accept Proposal </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+
+</div>
+
+
+        <div class="hide" id="book">
+  <h1>Book a call</h1>
+  <p> If you would like to discuss this proposal please book a call directly into my calendar through the below link </p>
+
+  <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/tripbynumbers/30min" style="min-width:320px;height:580px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+
 </div>
 
 

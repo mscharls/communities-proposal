@@ -15,13 +15,13 @@
              <div class="dropdown-content">
               <a id="timeframe_button">Timeframe</a>
               <a id="budget_button">Budget</a>
-              <a id="t_and_c_button">Terms & Conditions</a>
+              <a id="team_button">Team & Engagement</a>
             </div>
         </div>
       <div>
           <h2 class="dropdown-nav animated">Next Steps <i class="fas fa-sort-down"></i></h2>
              <div class="dropdown-content">
-              <a id=accept_button>Accept Poposal</a>
+              <a id=accept_button>Accept Proposal</a>
               <a id=book_button>Book a Call</a>
             </div>
         </div>
@@ -42,7 +42,11 @@
 
         {% include project_management.html %}
 
-        {% include terms_and_conditions.html %}
+        {% include team.html %}
+
+        {% include accept.html %}
+
+        {% include book.html %}
 
   </div>
 </section>
