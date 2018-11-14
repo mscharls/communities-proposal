@@ -111,9 +111,6 @@ li {
 
 /* ------------------------- MODULAR ELEMENTS ------------------------- */
 
-.white {
-  color: white;
-}
 .logo {
   max-height: 16vw;
   fill: white;
@@ -221,6 +218,10 @@ ul {
 
  .fas {
    font-size: 1.5vw;
+ }
+
+ .white {
+   color: white;
  }
 
 /* ------------------------- FORMS ------------------------- */
