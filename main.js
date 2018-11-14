@@ -31,7 +31,7 @@ $(".dropdown-nav").click(function(){
        $("#letter").removeClass("hide");
        $("#phases").attr("class","hide");
        $("#services").attr("class","hide");
-       $("#timelines").attr("class","hide");
+       $("#timeframe").attr("class","hide");
        $("#budget").attr("class","hide");
        $("#t_and_c").attr("class","hide");
        $("#accept").attr("class","hide");
@@ -43,7 +43,7 @@ $(".dropdown-nav").click(function(){
        $("#letter").attr("class","hide");
        $("#phases").removeClass("hide");
        $("#services").attr("class","hide");
-       $("#timelines").attr("class","hide");
+       $("#timeframe").attr("class","hide");
        $("#budget").attr("class","hide");
        $("#t_and_c").attr("class","hide");
        $("#accept").attr("class","hide");
@@ -55,19 +55,19 @@ $(".dropdown-nav").click(function(){
        $("#letter").attr("class","hide");
        $("#phases").attr("class","hide");
        $("#services").removeClass("hide");
-       $("#timelines").attr("class","hide");
+       $("#timeframe").attr("class","hide");
        $("#budget").attr("class","hide");
        $("#t_and_c").attr("class","hide");
        $("#accept").attr("class","hide");
        $("#book").attr("class","hide");
     });
 
-  $("#timelines_button").click(function(){
+  $("#timeframe_button").click(function(){
       console.log("button clicked"); //debug comments
        $("#letter").attr("class","hide");
        $("#phases").attr("class","hide");
        $("#services").attr("class","hide");
-       $("#timelines").removeClass("hide");
+       $("#timeframe").removeClass("hide");
        $("#budget").attr("class","hide");
        $("#t_and_c").attr("class","hide");
        $("#accept").attr("class","hide");
@@ -79,7 +79,7 @@ $(".dropdown-nav").click(function(){
        $("#letter").attr("class","hide");
        $("#phases").attr("class","hide");
        $("#services").attr("class","hide");
-       $("#timelines").attr("class","hide");
+       $("#timeframe").attr("class","hide");
        $("#budget").removeClass("hide");
        $("#t_and_c").attr("class","hide");
        $("#accept").attr("class","hide");
@@ -91,7 +91,7 @@ $(".dropdown-nav").click(function(){
        $("#letter").attr("class","hide");
        $("#phases").attr("class","hide");
        $("#services").attr("class","hide");
-       $("#timelines").attr("class","hide");
+       $("#timeframe").attr("class","hide");
        $("#budget").attr("class","hide");
        $("#t_and_c").removeClass("hide");
        $("#accept").attr("class","hide");
@@ -103,7 +103,7 @@ $(".dropdown-nav").click(function(){
        $("#letter").attr("class","hide");
        $("#phases").attr("class","hide");
        $("#services").attr("class","hide");
-       $("#timelines").attr("class","hide");
+       $("#timeframe").attr("class","hide");
        $("#budget").attr("class","hide");
        $("#t_and_c").attr("class","hide");
        $("#accept").removeClass("hide");
@@ -115,7 +115,7 @@ $(".dropdown-nav").click(function(){
        $("#letter").attr("class","hide");
        $("#phases").attr("class","hide");
        $("#services").attr("class","hide");
-       $("#timelines").attr("class","hide");
+       $("#timeframe").attr("class","hide");
        $("#budget").attr("class","hide");
        $("#t_and_c").attr("class","hide");
        $("#accept").attr("class","hide");
