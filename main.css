@@ -162,6 +162,8 @@ li{list-style:none}
   cursor: pointer;
   background-color: #F3E8D8;
   box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.1);
+  overflow:auto;
+  max-height: 100vh;
 
 }
 
@@ -172,6 +174,7 @@ li{list-style:none}
 
 .proposal-body p, .proposal-body h3 {
   padding: 2%;
+  color: black;
 }
 
 /* ------------------------- FORMS ------------------------- */
