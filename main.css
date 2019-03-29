@@ -13,12 +13,10 @@ Website Fonts:
   Font-family: 'Raleway', sans-serif;
   Font-family: 'Hind Madurai', sans-serif;
 Website Colours: List colour hex codes here for reference
-adapt black: black
-adapt white: white
 tbn taupe: #F3E8D8
 tbn purple: #463656
-adapt grey: #E1E1E1
-adapt red: #E55453
+tbn black: black
+
 
 /* ------------------------- CSS RESET ------------------------- */
 * {
@@ -167,6 +165,10 @@ div h1 {
   padding-bottom: 2%;
 }
 
+.dropdown-nav:hover {
+  color: white;
+}
+
 .dropdown-content {
     display: none;
     background-color: #F9F4ED;
@@ -225,6 +227,9 @@ ul {
    color: white;
  }
 
+.thumb {
+  width: 6vw;
+}
 /* ------------------------- FORMS ------------------------- */
 
 /* ------------------------- SPECIFIC ELEMENTS ------------------------- */
